@@ -1,18 +1,3 @@
-// const now = new Date();
-// console.log(now);
-// console.log(pad(now.getDate()));
-// console.log(pad(now.getMonth() + 1)); 
-// console.log(pad(now.getFullYear()));
-// console.log(pad(now.getHours()));
-// console.log(pad(now.getMinutes()));
-// console.log(pad(now.getSeconds()));
-// function pad(n) {
-//     return String(n).padStart(2, '0');
-// }
-// console.log(pad(now.getHours()) + ':' + pad(now.getMinutes()) + ':' + pad(now.getSeconds()));
-// console.log(now.toLocaleDateString(ru-RU));
-
-
 function pad(n) {
   return String(n).padStart(2, '0');
 }
