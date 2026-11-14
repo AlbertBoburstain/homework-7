@@ -51,7 +51,7 @@ timerStart.addEventListener("click", function () {
   timerLeft = Number(timerInput.value);
 
   if (isNaN(timerLeft) || timerLeft <= 0) {
-    timerMsg.textContent = "Введи число больше нуля";
+    timerMsg.textContent = "Введи число больше нулья";
     return;
   }
 
@@ -65,7 +65,7 @@ timerStart.addEventListener("click", function () {
     if (timerLeft === 0) {
       clearInterval(timerId);
       timerId = null;
-      timerMsg.textContent = "⏰ Время вышло!";
+      timerMsg.textContent = "Время вышло!";
     }
   }, 1000);
 });
