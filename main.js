@@ -138,7 +138,7 @@ setInterval(function () {
   const currentTime = `${pad(now.getHours())}:${pad(now.getMinutes())}`;
   const todayAndTime = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${currentTime}`;
   if (alarmTime && currentTime === alarmTime && alarmRangFor !== todayAndTime) {
-    alarmMsg.textContent = "⏰ Пора!";
+    alarmMsg.textContent = "Время пришло!";
     alarmRangFor = todayAndTime;
   }
 }, 1000);
